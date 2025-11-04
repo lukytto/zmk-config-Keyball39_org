@@ -178,10 +178,10 @@
 
         symb_num_layer {
             bindings = <
-&kp N7        &kp N8        &kp N9        &kp ASTERISK  &kp SLASH                          &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH
-&kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp PLUS      &underscore_DBTap                  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LESS_THAN     &kp GREATER_THAN   &kp EQUAL
-&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp COMMA     &kp PERIOD                         &kp SEMICOLON         &kp COLON              &kp SQT           &kp DOUBLE_QUOTES  &kp GRAVE
-&kp N0        &trans        &kp EQUAL     &trans        &trans             &trans  &trans  &trans                                                                            &kp TILDE
+&kp ASTERISK  &kp N7        &kp N8        &kp N9        &kp EQUAL                  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp EQUAL
+&kp SLASH     &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp PLUS                   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LESS_THAN     &kp GREATER_THAN   &kp BACKSLASH
+&none         &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp MINUS                  &quote_DBTap          &semicolon_DBTap       &kp COMMA         &kp PERIOD         &kp SLASH
+&none         &trans        &kp N0        &trans        &trans     &trans  &trans  &trans                                                                            &kp TILDE
             >;
         };
 
