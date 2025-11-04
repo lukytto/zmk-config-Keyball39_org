@@ -121,39 +121,39 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   symb_num:
+  - '*'
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
   - {t: '9', s: (}
-  - '*'
-  - {t: /, s: '?'}
+  - {t: '=', s: +}
   - '{'
   - '}'
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
-  - {t: \, s: '|'}
+  - {t: '=', s: +}
+  - {t: /, s: '?'}
   - '4'
   - {t: '5', s: '%'}
   - '6'
   - +
-  - '&underscore_DBTap'
   - (
   - )
   - <
   - '>'
-  - {t: '=', s: +}
+  - {t: \, s: '|'}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '1'
   - '2'
   - '3'
+  - {t: '-', s: _}
+  - '&quote_DBTap'
+  - '&semicolon_DBTap'
   - {t: ',', s: <}
   - .
-  - {t: ;, s: ':'}
-  - ':'
-  - {t: '''', s: '"'}
-  - '"'
-  - {t: '`', s: '~'}
-  - {t: '0', s: )}
+  - {t: /, s: '?'}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '=', s: +}
+  - {t: '0', s: )}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
