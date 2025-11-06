@@ -150,17 +150,17 @@
 &kp Q         &kp W            &kp E            &kp R                   &longPress LC(T) T                          &kp Y            &kp U                    &kp I             &kp O             &kp P
 &HML LCTRL A  &HML LEFT_ALT S  &HML LEFT_GUI D  &HMShiftL LEFT_SHIFT F  &kp G                                       &kp H            &HMShiftR RIGHT_SHIFT J  &HMR RIGHT_GUI K  &HMR RIGHT_ALT L  &HMR RCTRL SEMICOLON
 &kp Z         &kp X            &kp C            &kp V                   &kp B                                       &kp N            &kp M                    &kp COMMA         &kp DOT           &kp SLASH
-&kp ESC       &kp TAB          &kp LCTRL        &lt 2 LEFT_ALT          &lt 1 LSHIFT        &lt 5 SPACE  &kp ENTER  &lt 3 BACKSPACE                                                               &lt 4 DELETE
+&kp ESC       &kp TAB          &kp LCTRL        &kp LEFT_ALT            &lt 1 LSHIFT        &lt 5 SPACE  &kp ENTER  &lt 3 BACKSPACE                                                               &lt 4 DELETE
             >;
         };
 
         mouse_layer {
             label = "MOUSE";
             bindings = <
-&kp ESCAPE    &none           &kp UP_ARROW  &none      &none                   &none          &mkp MB4    &msc SCRL_UP    &mkp MB5     &none
-&kp TAB       &kp LEFT_ARROW  &kp DOWN      &kp RIGHT  &none                   &kp PAGE_UP    &kp K_COPY  &msc SCRL_DOWN  &kp K_PASTE  &none
-&kp CAPSLOCK  &none           &none         &none      &none                   &kp PAGE_DOWN  &mkp MB1    &mkp MB2        &mkp MB3     &msc MOVE_X(0)
-&none         &trans          &trans        &trans     &trans  &trans  &trans  &mo 0                                                   &none
+&kp ESCAPE    &none           &kp UP_ARROW  &none      &none                   &none          &mkp MB4   &msc SCRL_UP    &mkp MB5   &none
+&kp TAB       &kp LEFT_ARROW  &kp DOWN      &kp RIGHT  &none                   &kp PAGE_UP    &kp LC(C)  &msc SCRL_DOWN  &kp LC(V)  &none
+&kp CAPSLOCK  &none           &none         &none      &none                   &kp PAGE_DOWN  &mkp MB1   &mkp MB2        &mkp MB3   &none
+&none         &trans          &trans        &trans     &trans  &trans  &trans  &mo 0                                                &none
             >;
         };
 
