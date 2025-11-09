@@ -30,13 +30,9 @@
 &msc {
 };
 
-x-input-code = <2>;
+&mmv { acceleration-exponent = <2>; };
 
-time-to-max-speed-ms {
-    = <200>;};
-
-/
-
+/ {
     // custom shift using mod-morph 
 
     behaviors {
